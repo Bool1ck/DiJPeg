@@ -1,0 +1,175 @@
+/* CSS Document */
+html,body {
+	height:100%;
+	overflow:hidden;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+	
+*{padding:0px;margin:0px;}
+
+.body {
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	height:100%;
+	overflow:hidden;
+	background: linear-gradient(#547293, #FFF);
+	}
+
+.acenter {
+    text-align: center;
+}
+
+.w120 {
+    width: 118px;
+}
+
+.convert {
+    display: none;
+}
+
+.upload .wrapper {
+    display: none;
+}
+
+.photoalbum .wrapper {
+}
+
+.img {
+	margin-top: 10px;
+	border: #656565 2px solid;
+}
+
+.wrapper {
+	padding: 5px 0 5px 0;
+	overflow: auto;
+}
+
+.set {
+    width: 300px;
+    align-items: center;
+}
+
+.settop {
+	width: 300px;
+    align-items: center;
+}
+
+.setname, .val {
+    align-items: center;
+	display: inline-block;
+}
+
+.setvolmin, .setvolmax, .setrange {
+    display: inline-block;
+}
+
+#size, #contrast, #brightness {
+    width: 200px;
+}
+
+.imgfield {
+	margin-top: 15px;
+    font-size: 7px;
+    font-family: "Courier New", Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "monospace";
+    line-height: 70%;
+}
+
+/*       ***************************************           */
+
+.header {
+    position: absolute;
+    left:0px;
+	right:0px;
+	top:0px;
+	height: 100px;
+	background-image: url("../images/header_fon.jpg");
+	background-repeat: repeat-x;
+}
+
+.headerwrapper {
+	margin: auto;
+	width: 1200px;
+	height: 100px;
+}
+
+.logo {
+	position: relative;
+	margin-left: 25px;
+	color: #C9DEE6;
+	font-size: 24px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.logo em {
+	font-size: 18px;
+}
+
+.conteiner {
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:100px;
+	bottom:0px;
+}
+
+.center {
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+	background: #C9DEE6;
+}
+
+.left {
+	float: left;
+	margin-left: 5px;
+	width: 300px;
+	height: 100%;
+}
+
+.lblock {
+    margin-top: 10px;
+    width: 100%;
+    background: #FFF;
+}
+
+.head {
+    height: 25px;
+    width: 100%;
+    color: #FFF;
+    background: #376095;
+    text-align: center;
+    line-height: 25px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.data {
+	float: right;
+	margin-right: 5px;
+	width: 885px;
+	height: 100%;
+	background: #FFF;
+	text-align: center;
+    overflow:auto;
+}
+
+.wp {
+    position: relative;
+    min-height: 100%;
+    height: 1px;
+}
+
+.galery {
+    text-align: center;
+    padding-top: 5px;
+    background: #FFF;
+    position: absolute;
+    overflow: auto;
+    height: 100%;
+}
